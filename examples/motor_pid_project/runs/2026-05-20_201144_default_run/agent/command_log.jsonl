@@ -1,6 +1,0 @@
-{"time": "2026-05-20T12:12:07.520288+00:00", "command": "set-param", "args": {"params": {"kp": 1.0, "ki": 0.02, "kd": 0.01, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 03 E8 00 14 00 0A 03 20 01 3D FF"}, "ok": true}
-{"time": "2026-05-20T12:12:07.650503+00:00", "command": "mark-window-start", "args": {"tag": "trial_001"}, "ok": true}
-{"time": "2026-05-20T12:12:10.916659+00:00", "command": "set-param", "args": {"params": {"kp": 1.0, "ki": 0.02, "kd": 0.01, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 03 E8 00 14 00 0A 00 00 00 19 FF"}, "ok": true}
-{"time": "2026-05-20T12:12:11.052310+00:00", "command": "mark-window-end", "args": {"window_id": "window_0001"}, "ok": true}
-{"time": "2026-05-20T12:12:30.712470+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 273}, "ok": true}
-{"time": "2026-05-20T12:17:55.410434+00:00", "command": "send-hex", "args": {"hex": "AA 10 00 FF"}, "ok": true}

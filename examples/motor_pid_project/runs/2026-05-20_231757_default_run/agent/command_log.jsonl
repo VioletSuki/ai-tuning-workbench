@@ -1,1 +1,0 @@
-{"time": "2026-05-20T15:18:11.027962+00:00", "command": "set-param", "args": {"params": {"kp": 1.0, "ki": 0.02, "kd": 0.01, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 03 E8 00 14 00 0A 03 20 01 3D FF"}, "ok": true}

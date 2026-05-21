@@ -1,2 +1,0 @@
-time_ms,target_speed,measured_speed,pwm,motion_flag,host_monotonic,frame_index,host_time
-2.0,0.0,0.0,0.0,127.0,41751.260874935,1,2026-05-20T14:07:16.199212+00:00
