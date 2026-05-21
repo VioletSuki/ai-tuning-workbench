@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "metrics": {
+    "mean_abs_error": 136.24,
+    "max_abs_error": 733.0,
+    "final_error": 0.0,
+    "overshoot_percent": 0.0,
+    "oscillation_score": 0.2636,
+    "settled": true,
+    "sample_count": 1087
+  },
+  "profile": "default",
+  "source": "saved_window/window_0003",
+  "row_count": 1087
+}

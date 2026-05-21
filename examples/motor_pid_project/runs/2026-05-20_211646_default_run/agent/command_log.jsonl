@@ -1,0 +1,4 @@
+{"time": "2026-05-20T13:16:51.039356+00:00", "command": "set-param", "args": {"params": {"kp": 1.0, "ki": 0.02, "kd": 0.01, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 03 E8 00 14 00 0A 03 20 01 3D FF"}, "ok": true}
+{"time": "2026-05-20T13:16:54.717547+00:00", "command": "mark-window-start", "args": {"tag": "trial_initial"}, "ok": true}
+{"time": "2026-05-20T13:16:57.987290+00:00", "command": "mark-window-end", "args": {"window_id": "window_0001"}, "ok": true}
+{"time": "2026-05-20T13:17:00.583080+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 261}, "ok": true}

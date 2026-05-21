@@ -1,0 +1,13 @@
+metric_profiles:
+  default:
+    plugin: "metrics/motor_pid_metrics.py"
+    function: "compute_metrics"
+    inputs:
+      time: "time_ms"
+      target: "target_speed"
+      measured: "measured_speed"
+      output: "pwm"
+  raw_preview:
+    builtin:
+      - name: "min_max"
+      - name: "mean"

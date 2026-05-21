@@ -1,0 +1,13 @@
+metric_profiles:
+  default:
+    plugin: "metrics/boiler_metrics.py"
+    function: "compute_metrics"
+    inputs:
+      time: "time_ms"
+      target: "target_temperature"
+      measured: "measured_temperature"
+      output: "heater_power"
+  raw_preview:
+    builtin:
+      - name: "min_max"
+      - name: "mean"

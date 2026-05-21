@@ -1,0 +1,6 @@
+{"time_ms": 3.0, "target_speed": 0.0, "measured_speed": 0.0, "pwm": 0.0, "motion_flag": 127.0, "host_monotonic": 41108.552632, "frame_index": 1, "host_time": "2026-05-20T13:56:33.490962+00:00"}
+{"time_ms": 2.0, "target_speed": 0.0, "measured_speed": 0.0, "pwm": 0.0, "motion_flag": 127.0, "host_monotonic": 41108.59008301, "frame_index": 1, "host_time": "2026-05-20T13:56:33.528419+00:00"}
+{"time_ms": 3.0, "target_speed": 0.0, "measured_speed": 0.0, "pwm": 0.0, "motion_flag": 127.0, "host_monotonic": 41108.624614952, "frame_index": 1, "host_time": "2026-05-20T13:56:33.562944+00:00"}
+{"time_ms": 3.0, "target_speed": 0.0, "measured_speed": 0.0, "pwm": 0.0, "motion_flag": 127.0, "host_monotonic": 41108.656375331, "frame_index": 1, "host_time": "2026-05-20T13:56:33.594709+00:00"}
+{"time_ms": 2.0, "target_speed": 0.0, "measured_speed": 0.0, "pwm": 0.0, "motion_flag": 127.0, "host_monotonic": 41108.686652638, "frame_index": 1, "host_time": "2026-05-20T13:56:33.624987+00:00"}
+{"time_ms": 2.0, "target_speed": 0.0, "measured_speed": 0.0, "pwm": 0.0, "motion_flag": 127.0, "host_monotonic": 41108.716324326, "frame_index": 1, "host_time": "2026-05-20T13:56:33.654659+00:00"}

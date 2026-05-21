@@ -1,0 +1,45 @@
+mode: fixed_binary
+display: hex
+tx_frame:
+  header: "AA"
+  tail: "FF"
+  message_id: "10"
+  checksum: sum_u8
+  endian: big
+  payload:
+    - name: target_temperature
+      type: int16
+      wire_scale: 1
+      min: 0
+      max: 200
+      default: 100
+      description: Target boiler temperature in Celsius
+    - name: heater_enabled
+      type: uint8
+      wire_scale: 1
+      min: 0
+      max: 1
+      default: 0
+      description: Heater enable flag
+rx_frame:
+  header: "AB"
+  tail: "FF"
+  message_id: "20"
+  checksum: sum_u8
+  endian: big
+  payload:
+    - name: time_ms
+      type: uint32
+      description: Timestamp in milliseconds
+    - name: target_temperature
+      type: int16
+      description: Current target temperature
+    - name: measured_temperature
+      type: int16
+      description: Measured boiler temperature
+    - name: heater_power
+      type: uint16
+      description: Heater power level
+    - name: system_status
+      type: uint8
+      description: System status code

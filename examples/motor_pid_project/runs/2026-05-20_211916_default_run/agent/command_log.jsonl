@@ -1,0 +1,21 @@
+{"time": "2026-05-20T13:19:22.498664+00:00", "command": "set-param", "args": {"params": {"kp": 1.5, "ki": 0.05, "kd": 0.02, "target_speed": 1000, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 05 DC 00 32 00 14 03 E8 01 23 FF"}, "ok": true}
+{"time": "2026-05-20T13:19:23.771736+00:00", "command": "mark-window-start", "args": {"tag": "test_fix"}, "ok": true}
+{"time": "2026-05-20T13:19:27.053612+00:00", "command": "mark-window-end", "args": {"window_id": "window_0001"}, "ok": true}
+{"time": "2026-05-20T13:19:29.792090+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 252}, "ok": true}
+{"time": "2026-05-20T13:19:39.081895+00:00", "command": "set-param", "args": {"params": {"kp": 1.5, "ki": 0.05, "kd": 0.02, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 05 DC 00 32 00 14 00 00 00 37 FF"}, "ok": true}
+{"time": "2026-05-20T13:19:39.859067+00:00", "command": "set-param", "args": {"params": {"kp": 1.0, "ki": 0.02, "kd": 0.01, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 03 E8 00 14 00 0A 03 20 01 3D FF"}, "ok": true}
+{"time": "2026-05-20T13:19:42.132687+00:00", "command": "mark-window-start", "args": {"tag": "trial_step_800"}, "ok": true}
+{"time": "2026-05-20T13:19:45.416011+00:00", "command": "mark-window-end", "args": {"window_id": "window_0002"}, "ok": true}
+{"time": "2026-05-20T13:19:45.559119+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 252}, "ok": true}
+{"time": "2026-05-20T13:22:31.765702+00:00", "command": "set-param", "args": {"params": {"kp": 1.0, "ki": 0.02, "kd": 0.01, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 03 E8 00 14 00 0A 00 00 00 19 FF"}, "ok": true}
+{"time": "2026-05-20T13:22:32.535836+00:00", "command": "set-param", "args": {"params": {"kp": 1.0, "ki": 0.02, "kd": 0.01, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 03 E8 00 14 00 0A 00 00 00 19 FF"}, "ok": true}
+{"time": "2026-05-20T13:22:33.307319+00:00", "command": "set-param", "args": {"params": {"kp": 1.0, "ki": 0.02, "kd": 0.01, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 03 E8 00 14 00 0A 03 20 01 3D FF"}, "ok": true}
+{"time": "2026-05-20T13:22:34.082129+00:00", "command": "mark-window-start", "args": {"tag": "step_response"}, "ok": true}
+{"time": "2026-05-20T13:22:37.362985+00:00", "command": "mark-window-end", "args": {"window_id": "window_0003"}, "ok": true}
+{"time": "2026-05-20T13:22:37.506355+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 252}, "ok": true}
+{"time": "2026-05-20T13:25:38.796435+00:00", "command": "set-param", "args": {"params": {"kp": 1.0, "ki": 0.02, "kd": 0.01, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 03 E8 00 14 00 0A 00 00 00 19 FF"}, "ok": true}
+{"time": "2026-05-20T13:25:39.567058+00:00", "command": "mark-window-start", "args": {"tag": "step_0_to_800"}, "ok": true}
+{"time": "2026-05-20T13:25:39.703289+00:00", "command": "set-param", "args": {"params": {"kp": 1.0, "ki": 0.02, "kd": 0.01, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 03 E8 00 14 00 0A 03 20 01 3D FF"}, "ok": true}
+{"time": "2026-05-20T13:25:42.983773+00:00", "command": "mark-window-end", "args": {"window_id": "window_0004"}, "ok": true}
+{"time": "2026-05-20T13:25:43.125092+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 260}, "ok": true}
+{"time": "2026-05-20T13:56:32.690557+00:00", "command": "send-hex", "args": {"hex": "AA 10 00 FF"}, "ok": true}

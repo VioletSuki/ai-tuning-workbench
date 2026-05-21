@@ -1,0 +1,26 @@
+project_name: boiler_sim_project
+description: "Example project for boiler temperature control — demonstrates non-PID scenario."
+backend:
+  type: mock
+  mock:
+    sample_interval_s: 0.1
+    tx_to_rx_map:
+      target_temperature: target_temperature
+      heater_enabled: heater_enabled
+    response_model:
+      target: target_temperature
+      measured: measured_temperature
+      output: heater_power
+      motion_flag: null
+runtime:
+  daemon_host: "127.0.0.1"
+  daemon_port: 8766
+  ring_buffer_seconds: 120
+  raw_log_enabled: true
+  decoded_log_enabled: true
+recording:
+  default_run_name: "default_run"
+  max_cli_points: 200
+  max_cli_raw_frames: 100
+windows:
+  default_duration_s: 5.0

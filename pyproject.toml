@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-tuning-workbench"
+version = "0.1.0"
+description = "CLI data adapter layer for external AI agents — serial/sim communication, manifest-driven codec, experiment recording, window queries, metrics, and plotting."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "typer>=0.9",
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+    "pyserial>=3.5",
+    "fastapi>=0.100",
+    "uvicorn>=0.23",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    "pytest>=7.0",
+    "rich>=13.0",
+    "httpx>=0.24",
+]
+
+[project.scripts]
+tuner = "tuner.cli:app"
+
+[tool.setuptools.packages.find]
+include = ["tuner*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:launch_testing -p no:launch_ros"

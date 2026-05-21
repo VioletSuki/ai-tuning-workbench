@@ -1,0 +1,83 @@
+{"time": "2026-05-21T02:15:47.177676+00:00", "command": "set-param", "args": {"params": {"kp": 2.0, "ki": 0.5, "kd": 0.01, "target_speed": 500, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 07 D0 01 F4 00 0A 01 F4 01 DC FF"}, "ok": true}
+{"time": "2026-05-21T02:15:49.844244+00:00", "command": "mark-window-start", "args": {"tag": "trial_500rpm"}, "ok": true}
+{"time": "2026-05-21T02:15:58.164759+00:00", "command": "set-param", "args": {"params": {"kp": 2.0, "ki": 0.5, "kd": 0.01, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 07 D0 01 F4 00 0A 00 00 00 E6 FF"}, "ok": true}
+{"time": "2026-05-21T02:15:59.255369+00:00", "command": "mark-window-end", "args": {"window_id": "window_0001"}, "ok": true}
+{"time": "2026-05-21T02:16:00.335753+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 794}, "ok": true}
+{"time": "2026-05-21T02:16:04.437094+00:00", "command": "set-param", "args": {"params": {"kp": 2.0, "ki": 0.5, "kd": 0.01, "target_speed": 300, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 07 D0 01 F4 00 0A 01 2C 01 14 FF"}, "ok": true}
+{"time": "2026-05-21T02:16:05.487748+00:00", "command": "mark-window-start", "args": {"tag": "trial_300rpm"}, "ok": true}
+{"time": "2026-05-21T02:16:11.947138+00:00", "command": "set-param", "args": {"params": {"kp": 2.0, "ki": 0.5, "kd": 0.01, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 07 D0 01 F4 00 0A 00 00 00 E6 FF"}, "ok": true}
+{"time": "2026-05-21T02:16:12.989570+00:00", "command": "mark-window-end", "args": {"window_id": "window_0002"}, "ok": true}
+{"time": "2026-05-21T02:16:14.043738+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 635}, "ok": true}
+{"time": "2026-05-21T02:16:17.277944+00:00", "command": "set-param", "args": {"params": {"kp": 2.0, "ki": 0.5, "kd": 0.01, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 07 D0 01 F4 00 0A 03 20 01 0A FF"}, "ok": true}
+{"time": "2026-05-21T02:16:18.323925+00:00", "command": "mark-window-start", "args": {"tag": "trial_800rpm"}, "ok": true}
+{"time": "2026-05-21T02:16:25.417774+00:00", "command": "set-param", "args": {"params": {"kp": 2.0, "ki": 0.5, "kd": 0.01, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 07 D0 01 F4 00 0A 00 00 00 E6 FF"}, "ok": true}
+{"time": "2026-05-21T02:16:26.472632+00:00", "command": "mark-window-end", "args": {"window_id": "window_0003"}, "ok": true}
+{"time": "2026-05-21T02:16:27.540261+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 685}, "ok": true}
+{"time": "2026-05-21T02:16:31.749924+00:00", "command": "set-param", "args": {"params": {"kp": 2.0, "ki": 0.5, "kd": 0.01, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 07 D0 01 F4 00 0A 03 20 01 0A FF"}, "ok": true}
+{"time": "2026-05-21T02:16:32.806597+00:00", "command": "mark-window-start", "args": {"tag": "trial_800rpm_long"}, "ok": true}
+{"time": "2026-05-21T02:16:43.875276+00:00", "command": "set-param", "args": {"params": {"kp": 2.0, "ki": 0.5, "kd": 0.01, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 07 D0 01 F4 00 0A 00 00 00 E6 FF"}, "ok": true}
+{"time": "2026-05-21T02:16:44.930970+00:00", "command": "mark-window-end", "args": {"window_id": "window_0004"}, "ok": true}
+{"time": "2026-05-21T02:16:45.995184+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 1016}, "ok": true}
+{"time": "2026-05-21T02:16:50.417604+00:00", "command": "set-param", "args": {"params": {"kp": 2.2, "ki": 0.55, "kd": 0.01, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 08 98 02 26 00 0A 03 20 01 06 FF"}, "ok": true}
+{"time": "2026-05-21T02:16:51.482628+00:00", "command": "mark-window-start", "args": {"tag": "trial_800rpm_kp22"}, "ok": true}
+{"time": "2026-05-21T02:17:02.294453+00:00", "command": "set-param", "args": {"params": {"kp": 2.2, "ki": 0.55, "kd": 0.01, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 08 98 02 26 00 0A 00 00 00 E2 FF"}, "ok": true}
+{"time": "2026-05-21T02:17:03.347694+00:00", "command": "mark-window-end", "args": {"window_id": "window_0005"}, "ok": true}
+{"time": "2026-05-21T02:17:04.415343+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 992}, "ok": true}
+{"time": "2026-05-21T02:17:08.306153+00:00", "command": "set-param", "args": {"params": {"kp": 2.3, "ki": 0.6, "kd": 0.01, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 08 FC 02 58 00 0A 03 20 01 9C FF"}, "ok": true}
+{"time": "2026-05-21T02:17:09.364530+00:00", "command": "mark-window-start", "args": {"tag": "trial_800rpm_kp23"}, "ok": true}
+{"time": "2026-05-21T02:17:20.336552+00:00", "command": "set-param", "args": {"params": {"kp": 2.3, "ki": 0.6, "kd": 0.01, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 08 FC 02 58 00 0A 00 00 00 78 FF"}, "ok": true}
+{"time": "2026-05-21T02:17:21.388926+00:00", "command": "mark-window-end", "args": {"window_id": "window_0006"}, "ok": true}
+{"time": "2026-05-21T02:17:22.458017+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 1011}, "ok": true}
+{"time": "2026-05-21T02:17:27.007746+00:00", "command": "set-param", "args": {"params": {"kp": 2.2, "ki": 0.55, "kd": 0.01, "target_speed": 500, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 08 98 02 26 00 0A 01 F4 01 D8 FF"}, "ok": true}
+{"time": "2026-05-21T02:17:28.058633+00:00", "command": "mark-window-start", "args": {"tag": "final_500rpm"}, "ok": true}
+{"time": "2026-05-21T02:17:33.208138+00:00", "command": "set-param", "args": {"params": {"kp": 2.2, "ki": 0.55, "kd": 0.01, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 08 98 02 26 00 0A 00 00 00 E2 FF"}, "ok": true}
+{"time": "2026-05-21T02:17:34.277586+00:00", "command": "mark-window-end", "args": {"window_id": "window_0007"}, "ok": true}
+{"time": "2026-05-21T02:17:35.348686+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 527}, "ok": true}
+{"time": "2026-05-21T02:17:42.192926+00:00", "command": "set-param", "args": {"params": {"kp": 3.0, "ki": 0.5, "kd": 0.05, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 0B B8 01 F4 00 32 03 20 01 1E FF"}, "ok": true}
+{"time": "2026-05-21T02:17:43.256423+00:00", "command": "mark-window-start", "args": {"tag": "trial_kp3_kd5"}, "ok": true}
+{"time": "2026-05-21T02:17:48.394707+00:00", "command": "set-param", "args": {"params": {"kp": 3.0, "ki": 0.5, "kd": 0.05, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 0B B8 01 F4 00 32 00 00 00 FA FF"}, "ok": true}
+{"time": "2026-05-21T02:17:49.466917+00:00", "command": "mark-window-end", "args": {"window_id": "window_0008"}, "ok": true}
+{"time": "2026-05-21T02:17:50.521378+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 531}, "ok": true}
+{"time": "2026-05-21T02:17:55.221321+00:00", "command": "set-param", "args": {"params": {"kp": 3.5, "ki": 0.5, "kd": 0, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 0D AC 01 F4 00 00 03 20 01 E2 FF"}, "ok": true}
+{"time": "2026-05-21T02:17:56.271190+00:00", "command": "mark-window-start", "args": {"tag": "trial_pi_35"}, "ok": true}
+{"time": "2026-05-21T02:18:01.387773+00:00", "command": "set-param", "args": {"params": {"kp": 3.5, "ki": 0.5, "kd": 0, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 0D AC 01 F4 00 00 00 00 00 BE FF"}, "ok": true}
+{"time": "2026-05-21T02:18:02.472907+00:00", "command": "mark-window-end", "args": {"window_id": "window_0009"}, "ok": true}
+{"time": "2026-05-21T02:18:03.545869+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 529}, "ok": true}
+{"time": "2026-05-21T02:18:12.513689+00:00", "command": "set-param", "args": {"params": {"kp": 2.5, "ki": 0.8, "kd": 0, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 09 C4 03 20 00 00 03 20 01 24 FF"}, "ok": true}
+{"time": "2026-05-21T02:18:13.567555+00:00", "command": "mark-window-start", "args": {"tag": "trial_kp25_ki8"}, "ok": true}
+{"time": "2026-05-21T02:18:18.704359+00:00", "command": "set-param", "args": {"params": {"kp": 2.5, "ki": 0.8, "kd": 0, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 09 C4 03 20 00 00 00 00 00 00 FF"}, "ok": true}
+{"time": "2026-05-21T02:18:19.772870+00:00", "command": "mark-window-end", "args": {"window_id": "window_0010"}, "ok": true}
+{"time": "2026-05-21T02:18:20.830478+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 523}, "ok": true}
+{"time": "2026-05-21T02:18:31.696168+00:00", "command": "set-param", "args": {"params": {"kp": 2.0, "ki": 0.5, "kd": 0.01, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 07 D0 01 F4 00 0A 03 20 01 0A FF"}, "ok": true}
+{"time": "2026-05-21T02:18:32.763824+00:00", "command": "mark-window-start", "args": {"tag": "final_800rpm"}, "ok": true}
+{"time": "2026-05-21T02:18:43.929299+00:00", "command": "set-param", "args": {"params": {"kp": 2.0, "ki": 0.5, "kd": 0.01, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 07 D0 01 F4 00 0A 00 00 00 E6 FF"}, "ok": true}
+{"time": "2026-05-21T02:18:44.981764+00:00", "command": "mark-window-end", "args": {"window_id": "window_0011"}, "ok": true}
+{"time": "2026-05-21T02:18:46.038236+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 1021}, "ok": true}
+{"time": "2026-05-21T02:19:11.562941+00:00", "command": "set-param", "args": {"params": {"kp": 2.5, "ki": 0.5, "kd": 0.03, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 09 C4 01 F4 00 1E 03 20 01 14 FF"}, "ok": true}
+{"time": "2026-05-21T02:19:12.621620+00:00", "command": "mark-window-start", "args": {"tag": "trial_kp25_kd3"}, "ok": true}
+{"time": "2026-05-21T02:19:24.595164+00:00", "command": "set-param", "args": {"params": {"kp": 2.5, "ki": 0.5, "kd": 0.03, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 09 C4 01 F4 00 1E 00 00 00 F0 FF"}, "ok": true}
+{"time": "2026-05-21T02:19:25.657292+00:00", "command": "mark-window-end", "args": {"window_id": "window_0012"}, "ok": true}
+{"time": "2026-05-21T02:19:26.717978+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 1083}, "ok": true}
+{"time": "2026-05-21T02:19:43.101386+00:00", "command": "set-param", "args": {"params": {"kp": 2.5, "ki": 1.5, "kd": 0.02, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 09 C4 05 DC 00 14 03 20 01 F6 FF"}, "ok": true}
+{"time": "2026-05-21T02:19:44.162897+00:00", "command": "mark-window-start", "args": {"tag": "trial_ki15"}, "ok": true}
+{"time": "2026-05-21T02:19:51.222665+00:00", "command": "set-param", "args": {"params": {"kp": 2.5, "ki": 1.5, "kd": 0.02, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 09 C4 05 DC 00 14 00 00 00 D2 FF"}, "ok": true}
+{"time": "2026-05-21T02:19:52.270030+00:00", "command": "mark-window-end", "args": {"window_id": "window_0013"}, "ok": true}
+{"time": "2026-05-21T02:19:53.327753+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 676}, "ok": true}
+{"time": "2026-05-21T02:20:00.967654+00:00", "command": "set-param", "args": {"params": {"kp": 2.0, "ki": 0.8, "kd": 0.01, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 07 D0 03 20 00 0A 03 20 01 38 FF"}, "ok": true}
+{"time": "2026-05-21T02:20:02.035851+00:00", "command": "mark-window-start", "args": {"tag": "trial_ki8"}, "ok": true}
+{"time": "2026-05-21T02:20:42.720285+00:00", "command": "set-param", "args": {"params": {"kp": 2.0, "ki": 0.8, "kd": 0.01, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 07 D0 03 20 00 0A 00 00 00 14 FF"}, "ok": true}
+{"time": "2026-05-21T02:20:45.746270+00:00", "command": "set-param", "args": {"params": {"kp": 1.5, "ki": 0.8, "kd": 0, "target_speed": 800, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 05 DC 03 20 00 00 03 20 01 38 FF"}, "ok": true}
+{"time": "2026-05-21T02:20:46.795420+00:00", "command": "mark-window-start", "args": {"tag": "trial_kp15_ki8"}, "ok": true}
+{"time": "2026-05-21T02:20:59.120041+00:00", "command": "set-param", "args": {"params": {"kp": 1.5, "ki": 0.8, "kd": 0, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 05 DC 03 20 00 00 00 00 00 14 FF"}, "ok": true}
+{"time": "2026-05-21T02:21:00.188499+00:00", "command": "mark-window-end", "args": {"window_id": "window_0014"}, "ok": true}
+{"time": "2026-05-21T02:21:01.251912+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 1109}, "ok": true}
+{"time": "2026-05-21T02:21:11.566563+00:00", "command": "set-param", "args": {"params": {"kp": 1.5, "ki": 0.8, "kd": 0, "target_speed": 500, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 05 DC 03 20 00 00 01 F4 01 0A FF"}, "ok": true}
+{"time": "2026-05-21T02:21:12.606340+00:00", "command": "mark-window-start", "args": {"tag": "trial2_500rpm"}, "ok": true}
+{"time": "2026-05-21T02:21:17.716026+00:00", "command": "set-param", "args": {"params": {"kp": 1.5, "ki": 0.8, "kd": 0, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 05 DC 03 20 00 00 00 00 00 14 FF"}, "ok": true}
+{"time": "2026-05-21T02:21:18.783016+00:00", "command": "mark-window-end", "args": {"window_id": "window_0015"}, "ok": true}
+{"time": "2026-05-21T02:21:19.840982+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 524}, "ok": true}
+{"time": "2026-05-21T02:21:23.880393+00:00", "command": "set-param", "args": {"params": {"kp": 1.5, "ki": 0.8, "kd": 0, "target_speed": 300, "bt_if_motion_flag": 1}, "hex_frame": "AA 10 05 DC 03 20 00 00 01 2C 01 42 FF"}, "ok": true}
+{"time": "2026-05-21T02:21:24.914999+00:00", "command": "mark-window-start", "args": {"tag": "trial2_300rpm"}, "ok": true}
+{"time": "2026-05-21T02:21:30.038017+00:00", "command": "set-param", "args": {"params": {"kp": 1.5, "ki": 0.8, "kd": 0, "target_speed": 0, "bt_if_motion_flag": 0}, "hex_frame": "AA 10 05 DC 03 20 00 00 00 00 00 14 FF"}, "ok": true}
+{"time": "2026-05-21T02:21:31.104314+00:00", "command": "mark-window-end", "args": {"window_id": "window_0016"}, "ok": true}
+{"time": "2026-05-21T02:21:32.165028+00:00", "command": "eval-window", "args": {"window": "latest", "last": null, "profile": "default", "row_count": 524}, "ok": true}

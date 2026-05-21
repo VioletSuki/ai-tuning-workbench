@@ -1,0 +1,78 @@
+{
+  "project_name": "motor_pid_project",
+  "backend": "mock",
+  "connection": "connected",
+  "current_params": {
+    "kp": 1.0,
+    "ki": 0.02,
+    "kd": 0.01,
+    "target_speed": 0,
+    "bt_if_motion_flag": 0
+  },
+  "tx_params": {
+    "kp": {
+      "min": 0.0,
+      "max": 10000.0,
+      "default": 1000.0,
+      "description": "Proportional gain (scaled by 1000)"
+    },
+    "ki": {
+      "min": 0.0,
+      "max": 10000.0,
+      "default": 20.0,
+      "description": "Integral gain (scaled by 1000)"
+    },
+    "kd": {
+      "min": 0.0,
+      "max": 10000.0,
+      "default": 10.0,
+      "description": "Derivative gain (scaled by 1000)"
+    },
+    "target_speed": {
+      "min": -3000.0,
+      "max": 3000.0,
+      "default": 800.0,
+      "description": "Target motor speed"
+    },
+    "bt_if_motion_flag": {
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "description": "Bluetooth motion enable flag"
+    }
+  },
+  "rx_channels": [
+    "time_ms",
+    "target_speed",
+    "measured_speed",
+    "pwm",
+    "motion_flag"
+  ],
+  "latest_data_time": "2026-05-20T12:12:31.193338+00:00",
+  "latest_metrics": {
+    "ok": true,
+    "metrics": {
+      "mean_abs_error": 0.0,
+      "max_abs_error": 0.0,
+      "final_error": 0.0,
+      "overshoot_percent": 0.0,
+      "oscillation_score": 0.0,
+      "settled": true,
+      "sample_count": 273
+    },
+    "profile": "default",
+    "source": "saved_window/window_0001",
+    "row_count": 273
+  },
+  "available_commands": [
+    "send-hex",
+    "set-param",
+    "get-raw",
+    "get-data",
+    "stream",
+    "eval-window",
+    "plot",
+    "mark-window-start",
+    "mark-window-end"
+  ]
+}

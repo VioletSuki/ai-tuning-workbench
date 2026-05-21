@@ -1,0 +1,9 @@
+{
+  "window_id": "window_0001",
+  "tag": "trial_500rpm",
+  "start_time": "2026-05-21T02:12:35.870719+00:00",
+  "start_monotonic": 1337.358904439,
+  "end_time": "2026-05-21T02:12:35.870606+00:00",
+  "end_monotonic": 1346.909647898,
+  "row_count": 823
+}
